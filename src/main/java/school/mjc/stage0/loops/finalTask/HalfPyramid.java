@@ -10,13 +10,7 @@ public class HalfPyramid {
             for (int j = 1; j <= i; j++) {
                 System.out.print("*");
             }
-
             System.out.println();
         }
-    }
-
-    public static void main(String[] args) {
-
-        new HalfPyramid().printHalfPyramid(8);
     }
 }
